@@ -1,23 +1,9 @@
 
 
-body{
-    font-family: sans-serif;
-    background:rgb(12 10 10);
-  }
-  
-  * {
-    box-sizing: border-box;
-    --avatar-size:50px;
-    --green-color:rgb(52, 247, 4);
-    --bg-color:black;
-    --primary-color:white;
-    --lg-green-color:rgb(128, 211, 125);
-    --red-color:red;
-    --bg-secondary-color:#2c303a;
-  }
+
 
   .span-detail{
-    color:var(--primary-color);
+    color:var(--primary-avatar-color);
     letter-spacing:1px;
     display:flex;
     justify-content:space-around;
@@ -52,7 +38,7 @@ body{
   .avatar-group {
     display: flex;
     margin-bottom:20px;
-    justify-content:space-around;
+    justify-content:flex-start;
     }
 
     .flex-col{
@@ -86,7 +72,7 @@ body{
       margin-left: 3px;
       margin-right: 13px;
       background-color:var(--bg-secondary-color);
-      color:var(--primary-color);
+      color:var(--primary-avatar-color);
   }
 
   /* avatar with white background */
