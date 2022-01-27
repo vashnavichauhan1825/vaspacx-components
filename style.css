@@ -1,9 +1,1 @@
 @import url('https://vaspacx-component.netlify.app/avatar.css');
-
-:root{
-    --bg-color:black;
-}
-
-body{
-    background-color:var(--bg-color);
-}
