@@ -89,8 +89,6 @@
     margin-left:50px;
   }
   .avatar-circle-wht{
-    width:var(--avatar-size);
-    height:var(--avatar-size);
     overflow: hidden;
     border-radius: 50%;
     position: relative;
@@ -108,8 +106,6 @@
 
   /* avatar rectangle with shadow */
   .avatar-rect{
-    width:var(--avatar-size);
-    height:var(--avatar-size);
     overflow: hidden;
     border-radius:2px;
     position: relative;
