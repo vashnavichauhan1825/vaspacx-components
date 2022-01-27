@@ -10,7 +10,9 @@ body{
   
   * {
     box-sizing: border-box;
-    --avatar-size:50px;
+    --avatar-s-x:50px;
+    --avatar-md-x:60px;
+    --avatar-lg-x:100px;
     --green-color:rgb(52, 247, 4);
     --bg-color:black;
     --avatar-font-color:white;
