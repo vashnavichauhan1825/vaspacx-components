@@ -1,3 +1,4 @@
+/* container for alert */
 .alert-container{
     display:flex;
     width:800px;
@@ -9,7 +10,8 @@
     background-color:black;
   }
   
-  .alert-success{
+  /* alert-box container */
+  .alert-box{
     display:flex;
     width:400px;
     height:70px;
@@ -20,15 +22,8 @@
     padding-right:10px;
     position: relative;
   }
-  .border-left-gr{
-    border-left: 8px solid rgb(84 236 78);
-    box-shadow: -11px 0px 10px 1px green;
-  }
-  .border-left-red{
-    border-left: 8px solid rgb(255 77 77);
-    box-shadow: -11px 0px 10px 1px #f90b0b;
-  }
-  .alert-success h4{
+  
+  .alert-box .al-heading{
     display:inline-block;
     margin:10px 0px 0px 20px;
     position: absolute;
@@ -42,7 +37,7 @@
     color: #3a3a3b;
   }
   
-  .alert-success .icon{
+  .alert-box .icon{
     margin: 16px 10px 0px 10px;
     border-radius: 50%;
     width: 30px;
@@ -50,6 +45,16 @@
     height: 30px;
   }
   
+  
+  .alert-box .small{
+    display:inline-block;
+    position: absolute;
+    color: #2c303a;
+    top: 40px;
+    left: 70px;
+  }
+  
+  /* colors for icon */
   .green-icon{
     border: 2px solid rgb(128 211 125);
     color: rgb(128 211 125);
@@ -60,23 +65,33 @@
     color: rgb(255 77 77);
     padding: 5px 6px;
   }
-  .alert-success small{
-    display:inline-block;
-    position: absolute;
-    color: #2c303a;
-    top: 40px;
-    left: 70px;
-  }
-  
-  /* colors for icon */
-  
   .yellow-icon{
-    border: 2px solid rgb(255 77 77);
-    color: rgb(255 77 77);
+    border: 2px solid rgb(234 255 66);
+    color: rgb(240 244 1);
     padding: 5px 6px;
   }
 
   .blue-icon{
-      
+    color: #124490;
+    padding: 5px 6px;
   }
   
+  /* borders for alert */
+  .border-left-gr{
+    border-left: 8px solid rgb(84 236 78);
+    box-shadow: -11px 0px 10px 1px green;
+  }
+  .border-left-red{
+    border-left: 8px solid rgb(255 77 77);
+    box-shadow: -11px 0px 10px 1px #f90b0b;
+  }
+  .border-left-yw{
+    border-left: 8px solid rgb(234 255 66);
+    box-shadow: -11px 0px 10px 1px #bec111;
+  }
+
+  .border-left-blue{
+    border-left: 8px solid #5e8cd0;
+    box-shadow: -11px 0px 10px 1px #124490;
+   }
+
