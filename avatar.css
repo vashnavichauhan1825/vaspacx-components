@@ -19,10 +19,12 @@
     gap:50px;
 }
   
+.avatar-s-x{
+  width:var(--avatar-s-x);
+  height:var(--avatar-s-x);
+}
   
   .avatar {
-    width:var(--avatar-size);
-    height:var(--avatar-size);
     overflow: hidden;
     border-radius: 50%;
     position: relative;
