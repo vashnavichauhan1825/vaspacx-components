@@ -11,8 +11,8 @@ body{
   * {
     box-sizing: border-box;
     --avatar-s-x:50px;
-    --avatar-md-x:60px;
-    --avatar-lg-x:100px;
+    --avatar-md-x:80px;
+    --avatar-lg-x:120px;
     --green-color:rgb(52, 247, 4);
     --bg-color:black;
     --avatar-font-color:white;
