@@ -42,10 +42,11 @@
     color: #3a3a3b;
   }
   
-  .alert-success i{
-    margin: 20px 10px 0px 10px;
+  .alert-success .icon{
+    margin: 16px 10px 0px 10px;
     border-radius: 50%;
     width: 30px;
+    box-sizing: border-box;
     height: 30px;
   }
   
