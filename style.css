@@ -1,1 +1,24 @@
 @import url('https://vaspacx-component.netlify.app/avatar.css');
+
+body{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    margin:0;
+    height:400vh;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+    --avatar-size:50px;
+    --green-color:rgb(52, 247, 4);
+    --bg-color:black;
+    --primary-avatar-color:white;
+    --lg-green-color:rgb(128, 211, 125);
+    --red-color:red;
+    --bg-secondary-color:#2c303a;
+    --primary-color:#124490;
+      --secondary-color:rgb(0,0,0);
+      --font-color:rgb(255,255,255);
+      --grey-color:#688078;
+  }
