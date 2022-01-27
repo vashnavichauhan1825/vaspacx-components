@@ -3,7 +3,7 @@
 
 
   .span-detail{
-    color:var(--primary-avatar-color);
+    color:var(--avatar-font-color);
     letter-spacing:1px;
     display:flex;
     justify-content:space-around;
@@ -72,7 +72,7 @@
       margin-left: 3px;
       margin-right: 13px;
       background-color:var(--bg-secondary-color);
-      color:var(--primary-avatar-color);
+      color:var(--avatar-font-color);
   }
 
   /* avatar with white background */
