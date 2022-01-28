@@ -190,7 +190,7 @@ font-weight:bold;
 
 .card-bookmark{
     position:absolute;
-    top: 9%;
+    top:1%;
     transform: rotate(-90deg);
 }
 
