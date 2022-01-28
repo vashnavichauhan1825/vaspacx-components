@@ -142,6 +142,7 @@ font-weight:bold;
    display:flex;
    width:600px;
    height:600px;
+   gap:50px;
    justify-content:center;
 }
 
@@ -290,4 +291,37 @@ font-weight:bold;
 
 .oy-para{
     margin:5px 10px;
+}
+
+.card-overlay-bottom{
+    position:relative;
+    object-fit:100%;
+    width: 354px;
+    color:var(--primary-color);
+    background-color:white;
+    height:320px;
+    border-radius:8px;
+    transition:all 0.5s ease-in-out;
+}
+
+.oy-head-btm{
+    position: absolute;
+    display: inline-block;
+    right: 2%;
+    top: 39%;
+    font-size: 26px;
+    color: #141212;
+    letter-spacing: 1px;
+}
+
+.oy-txt-subhead-btm{
+    position: absolute;
+    display: inline-block;
+    right: 2%;
+    top: 33%;
+}
+
+.card-overlay-bottom:hover{
+    cursor: pointer;
+    box-shadow: -1px -1px 20px 0px var(--primary-color);
 }
