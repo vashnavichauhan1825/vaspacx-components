@@ -193,8 +193,9 @@ font-weight:bold;
     transform: rotate(-90deg);
 }
 
-.card-bookmark i{
+.card-bookmark .bookmark-icon{
     font-size:40px;
+    color:white;
 }
 
 
