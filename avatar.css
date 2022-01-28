@@ -1,4 +1,6 @@
-
+body{
+  background-color:black;
+}
 
 
 
@@ -197,4 +199,94 @@
 
 .flex-center:nth-child(2n){
   background-color:var(--bg-color); 
+}
+
+/* badge for icon */
+
+.badge-container{
+  display:flex;
+  width:600px;
+  height:600px;
+  justify-content: center;
+  align-items:center;
+  gap:40px;
+}
+.badge{
+  display: flex;
+  position: relative;
+  width: 29px;
+  height: 30px;
+}
+
+.clr-grey{
+  color:var(--grey-color);
+}
+
+.x-icon{
+ font-size:37px;
+ color:rgb(47 55 61 / 95%);
+}
+
+.icon-badge{
+  position:absolute;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 19px;
+  border: 3px solid black;
+  font-size: 9px;
+}
+
+.icon-bell{
+  background-color: red;
+  top: -19%;
+  left: 67%;
+}
+
+/* button badge */
+.x-btn{
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.clr-btn-home{
+  background-color: #124490;
+}
+
+.clr-btn-inbox{
+  background-color:rgb(47 55 61 / 95%);
+}
+.badge-btn{
+  position: relative;
+  display:flex;
+  width:100px;
+  height:50px;
+}
+
+.btn-icon{
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  top: -18%;
+  border: 3px solid black;
+  left: 76%;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.bg-red{
+  background-color:red;
 }
