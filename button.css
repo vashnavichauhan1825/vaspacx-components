@@ -199,4 +199,53 @@ font-weight:bold;
     color:white;
 }
 
+/* dismiss card */
+.card-cont .image-sub{
+    margin: 10px 10px 0px 10px;
+    width: 94%;
+    border-radius: 10px;
+    border: 1px solid #3737f7;
+}
 
+.bg-wht{
+    background-color:var(--font-color);
+}
+
+.card-dissmiss-icon{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: rgb(47 55 61 / 95%);
+    font-size: 19px;
+}
+
+.black-clr{
+    color: rgb(47 55 61 / 95%);;
+}
+
+.diss-heading{
+    color: var(--primary-color);
+    display: inline-block;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.card-button-diss{
+    font-weight: bold;
+    width: 200px;
+    margin-left: 75px;
+    background-color: transparent;
+}
+
+.diss-card{
+    height:360px;
+}
+
+.diss-card:hover{
+    opacity:0.9;
+}
+
+.card-dissmiss-icon:hover{
+    color:black;
+}
