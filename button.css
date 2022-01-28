@@ -56,3 +56,48 @@ font-weight:bold;
     font-size:17px;
     color:white;
 }
+
+.btn-container .sec-btn{
+    margin: 10px 15px;
+    padding: 5px 5px;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 1px;
+   
+}
+
+.btn-container .normal-btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--bg-secondary-color);
+    box-shadow: 0px 0px 4px 1px white;
+    border-radius: 4px;
+}
+
+.btn-container .outl-sec-btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--bg-secondary-color);
+    opacity:0.6;
+    color:var(--font-color);
+    border-bottom:var(--bg-secondary-color);
+    transition:all 0.5s ease-in;
+}
+
+.btn-container .outl-sec-btn:hover{
+    opacity:1;
+    border-bottom:2px solid var(--font-color);
+}
+
+.btn-container .icon-sec-btn{
+    width: 120px;
+    padding: 5px 10px;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-secondary-color);
+}
+
+
