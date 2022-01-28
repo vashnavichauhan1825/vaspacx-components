@@ -1,6 +1,4 @@
-/* body{
-  background-color:black;
-} */
+
 
 
 
@@ -218,16 +216,16 @@
   height: 30px;
 }
 
-.clr-grey{
+.badge .clr-grey{
   color:var(--grey-color);
 }
 
-.x-icon{
+ .badge .x-icon{
  font-size:37px;
  color:rgb(47 55 61 / 95%);
 }
 
-.icon-badge{
+.badge .icon-badge{
   position:absolute;
   display: flex;
   border-radius: 50%;
@@ -239,14 +237,14 @@
   font-size: 9px;
 }
 
-.icon-bell{
+.badge .icon-bell{
   background-color: red;
   top: -19%;
   left: 67%;
 }
 
 /* button badge */
-.x-btn{
+.badge-btn .x-btn{
   width: 90px;
   height: 40px;
   border: none;
@@ -256,11 +254,11 @@
   color: white;
 }
 
-.clr-btn-home{
+.badge-btn .clr-btn-home{
   background-color: #124490;
 }
 
-.clr-btn-inbox{
+.badge-btn .clr-btn-inbox{
   background-color:rgb(47 55 61 / 95%);
 }
 .badge-btn{
@@ -270,7 +268,7 @@
   height:50px;
 }
 
-.btn-icon{
+.badge-btn .btn-icon{
   position: absolute;
   display: flex;
   border-radius: 50%;
@@ -283,10 +281,10 @@
   left: 76%;
 }
 
-.bg-white{
+.badge-btn .bg-white{
   background-color: white;
 }
 
-.bg-red{
+.badge-btn .bg-red{
   background-color:red;
 }
