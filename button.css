@@ -146,7 +146,7 @@ font-weight:bold;
 }
 
 .card-cont{
-    position: relative;
+    position:relative;
     display: flex;
     flex-direction: column;
     margin: 50px 50px;
@@ -189,7 +189,7 @@ font-weight:bold;
 }
 
 .card-bookmark{
-    position:relative;
+    position:absolute;
     top: 9%;
     transform: rotate(-90deg);
 }
