@@ -96,3 +96,44 @@
     box-shadow: -11px 0px 10px 1px #124490;
    }
 
+   /* outline alert */
+   
+   .bg-color-grey{
+    background-color:black;
+   }
+   
+   .outl-gr{
+     border:3px solid green;
+     box-shadow:0px 0px 7px 0px green;
+   }
+   
+   .alert-box .gr-color{
+     color:green;
+   }
+
+   .outl-red{
+    border:3px solid red;
+    box-shadow:0px 0px 7px 0px red;
+   }
+
+   .alert-box .red-color{
+    color:red;
+  }
+
+  .outl-yw{
+    border:3px solid yellow;
+    box-shadow:0px 0px 7px 0px yellow;
+   }
+
+   .alert-box .yw-color{
+    color:yellow;
+  }
+
+  .outl-blue{
+    border:3px solid blue;
+    box-shadow:0px 0px 7px 0px blue;
+   }
+
+   .alert-box .blue-color{
+    color:blue;
+  }
