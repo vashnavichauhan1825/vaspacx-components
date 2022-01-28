@@ -128,12 +128,7 @@ font-weight:bold;
 }
 
 .mail-btn{
-    background: conic-gradient(#124490 
-     
-    180deg
-    , white 
-    180deg
-     
-    270deg
-    );
+    background:  linear-gradient(
+        0deg
+        , #124490 50%, white 50%);
 }
