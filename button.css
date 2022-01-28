@@ -189,7 +189,7 @@ font-weight:bold;
 }
 
 .card-bookmark{
-    position:fixed;
+    position:relative;
     top: 9%;
     transform: rotate(-90deg);
 }
