@@ -150,7 +150,6 @@ font-weight:bold;
     display: flex;
     flex-direction: column;
     margin: 50px 50px;
-    border-radius: -9px;
     border-radius: 8px;
     width: 354px;
     background-color: #141212e0;
@@ -248,4 +247,47 @@ font-weight:bold;
 
 .card-dissmiss-icon:hover{
     color:black;
+}
+
+.card-overlay{
+    position:relative;
+    object-fit:100%;
+    width: 354px;
+    background-color:rgb(114, 110, 110);
+    height:320px;
+    border-radius:8px;
+    transition:all 0.5s ease-in-out;
+}
+
+.card-overlay:hover{
+    background-color:white;
+    color:var(--primary-color);
+}
+
+.img-card-overlay{
+    width:100%;
+    opacity:0.8;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+}
+
+.oy-head{
+    position: absolute;
+    display: inline-block;
+    left: 2%;
+    top: -6%;
+    font-size: 26px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.oy-txt-subhead{
+    position: absolute;
+    display: inline-block;
+    left: 2%;
+    top: 5%;
+}
+
+.oy-para{
+    margin:5px 10px;
 }
