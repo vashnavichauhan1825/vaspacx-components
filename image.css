@@ -68,7 +68,7 @@
 }
 .label-txt{
    font-weight:bold;
-    font-size:10px;
+    font-size:13px;
     color:var(--primary-color);
 }
 input::placeholder{
