@@ -140,7 +140,7 @@ font-weight:bold;
 
 .flex-card-cont{
    display:flex;
-   width:600px;
+   width:826px;
    height:600px;
    gap:50px;
    justify-content:center;
@@ -296,6 +296,7 @@ font-weight:bold;
 .card-overlay-bottom{
     position:relative;
     object-fit:100%;
+    opacity:0.9;
     width: 354px;
     color:var(--primary-color);
     background-color:white;
@@ -308,7 +309,7 @@ font-weight:bold;
     position: absolute;
     display: inline-block;
     right: 2%;
-    top: 39%;
+    top: 54%;
     font-size: 26px;
     color: #141212;
     letter-spacing: 1px;
@@ -318,10 +319,11 @@ font-weight:bold;
     position: absolute;
     display: inline-block;
     right: 2%;
-    top: 33%;
+    top: 49%;
 }
 
 .card-overlay-bottom:hover{
     cursor: pointer;
+    opacity:1;
     box-shadow: -1px -1px 20px 0px var(--primary-color);
 }
