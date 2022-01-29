@@ -121,18 +121,28 @@ input::placeholder{
 }
 /* input field 2=> username inside input */
 .input-cont-2{
-    border:2px solid var(--primary-color);
-    padding:0px 10px 7px 10px;
-    border-radius:4px;
-    background-color:white;
-    height:35px;
-    width:185px;
+    border: 2px solid var(--red-color);
+    padding: 0px 10px 7px 10px;
+    border-radius: 4px;
+    background-color:transparent;
+    height: 49px;
+    width: 185px;
 }
 .input-box-2{
      border-style:none;
      margin-left:-2px;
-     background-color:white;
+     background-color:transparent;
  }
+
+ .small-valid-txt{
+    font-size: 10px;
+    color: var(--green-color);
+}
+
+.invalid-txt{
+    color:var(--red-color);
+    font-size:10px;
+}
 
  .input-box-2::placeholder{
      padding-left:0px;
@@ -162,11 +172,11 @@ input::placeholder{
 
 /* 5=>inpuld field one sided border  */
 .input-cont-5{
-    border-bottom:3px solid  var(--primary-color) ;
-    padding:0px 1px 7px 1px;
-    background-color:white;
-    height:35px;
-    width:185px;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 0px 1px 7px 1px;
+    background-color:transparent;
+    height: 50px;
+    width: 185px;
 }
  .flex-cont-5{
     width:300px;
