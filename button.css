@@ -350,3 +350,16 @@ font-weight:bold;
     color: white;
 }
 
+/* glass effect */
+
+.text-card-trans{
+    width: 352px;
+    height: 444px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0,0,0);
+    padding: 10px;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+}
