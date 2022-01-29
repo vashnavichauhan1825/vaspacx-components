@@ -134,6 +134,10 @@ input::placeholder{
      background-color:transparent;
  }
 
+ .text-area{
+     width:200px;
+     height:100px;
+ }
  .small-valid-txt{
     font-size: 10px;
     color: var(--green-color);
