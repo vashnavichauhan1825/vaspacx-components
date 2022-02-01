@@ -238,7 +238,7 @@
 }
 
 .badge .icon-bell{
-  background-color: red;
+  background-color: var(--primary-color);
   top: -19%;
   left: 67%;
 }
