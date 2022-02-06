@@ -69,7 +69,7 @@
 
     .nav{
         list-style: none;
-        width: 100%;
+        width: 800px;
         height: 80px;
         background-color: var(--secbg-color);
         padding: 20px;
