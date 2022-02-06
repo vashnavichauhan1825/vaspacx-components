@@ -36,7 +36,7 @@
         height:auto;
     }
 
-     .spaced-list{
+     .stacked-list{
         list-style: none;
     display: flex;
     margin: 0;
