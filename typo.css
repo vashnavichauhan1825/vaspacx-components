@@ -1,0 +1,36 @@
+.h1-heading{
+    text-align:center;
+    font-size:50px;
+}
+.clr-blue{
+    color:var(--primary-color);
+    }
+
+    .para{
+        line-height: 27px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        font-size: 18px; 
+    }
+
+    .md-sz{
+        font-size: 22px;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+        line-height: 42px;
+    }
+
+    .bold-grey-text {
+        color: var(--lightGrey);
+        font-weight: 600;
+    }
+
+    .bold-white-txt{
+        color:var(--font-primary);
+        font-weight:600;
+    }
+
+    .para-cont{
+        width:50%;
+        height:auto;
+    }
