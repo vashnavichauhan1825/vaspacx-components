@@ -2,6 +2,7 @@
     text-align:center;
     font-size:50px;
 }
+
 .clr-blue{
     color:var(--primary-color);
     }
@@ -33,4 +34,19 @@
     .para-cont{
         width:50%;
         height:auto;
+    }
+
+     .spaced-list{
+        list-style: none;
+    display: flex;
+    margin: 0;
+    background-color: var(--secbg-color);
+    cursor: pointer;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: center;
+    gap: 7px;
+    letter-spacing: 1px;
     }
