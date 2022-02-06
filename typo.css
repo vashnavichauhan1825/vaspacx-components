@@ -50,3 +50,16 @@
     gap: 7px;
     letter-spacing: 1px;
     }
+
+    .spaced-list{
+        list-style: none;
+        width: 640px;
+        padding: 10px;
+        background-color: var(--secbg-color);
+    }
+
+
+    .item-spaced-list{
+        display: inline-block;
+        margin: 25px;
+    }
