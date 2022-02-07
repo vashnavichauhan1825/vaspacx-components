@@ -79,7 +79,7 @@
     border:1px solid palegreen;
 }
 
-p{
+.para-modal{
     padding-top:10px;
     font-size:19px;
     color:black;
@@ -107,7 +107,7 @@ p{
 
 .close-btn:hover{
     background:darkred;
-    color:white;
+    color:var(--font-primary);
     transition:0.5s;
 }
 
