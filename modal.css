@@ -154,3 +154,46 @@
     color:#1f9cff;
     top:0%;
 }
+
+
+.snackbars{
+    width: 400px;
+    height: 50px;
+    background-color:var(--secbg-color);
+    align-items: center;
+    display: flex;
+    padding: 0px 4px;
+    border-radius: 4px;
+    margin:10px;
+}
+
+.snackbars ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+
+.toast-green{
+    border:2px solid var(--green-color);
+    color:var(--green-color);
+}
+
+.toast-red{
+    border:2px solid var(--red-color);
+    color:var(--red-color);
+}
+
+.toast-yellow{
+    border:2px solid rgb(240 244 1);
+    color: rgb(240 244 1);
+}
+
+.toast-blue{
+    border:2px solid #124490;
+    color: #124490;
+}
+
