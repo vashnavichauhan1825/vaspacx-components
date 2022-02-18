@@ -199,3 +199,50 @@
 .r-color{
     color:var(--review-color);
 }
+
+.item{
+    border: 1px solid var(--lightGrey);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+}
+
+.item1{
+    background: url(./img/camera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.item2{
+    background: url(./img/globe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+ .item3{
+    background: url(./img/light.jpg);
+    background-size: cover;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    /* justify-content: start; */
+    align-items: center;
+}
+.cart-cont{
+    display: grid;
+    gap: 15px;
+    height: 73vh;
+    margin:20px;
+}
+
+.three-one-ratio{
+    grid-template-columns: 3fr 1fr;
+}
+
+.half-ratio{
+    grid-template-columns:repeat(2,1fr);
+}
