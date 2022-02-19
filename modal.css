@@ -229,7 +229,6 @@
     background-size: cover;
     flex-direction: column;
     background-repeat: no-repeat;
-    /* justify-content: start; */
     align-items: center;
 }
 .cart-cont{
