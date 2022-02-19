@@ -250,3 +250,24 @@
 .half-ratio{
     grid-template-columns:repeat(2,1fr);
 }
+
+.popular-item{
+    height: 559px;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 141px;
+}
+
+
+.row-span-two{
+    grid-row: 1/ span 2;
+}
+
+.grid-three{
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    grid-template-columns: repeat(3,328px);
+}
