@@ -1,0 +1,126 @@
+.h1-heading{
+    text-align:center;
+    font-size:50px;
+}
+
+.clr-blue{
+    color:var(--primary-color);
+    }
+
+    .para{
+        line-height: 27px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        font-size: 18px; 
+    }
+
+    .md-sz{
+        font-size: 22px;
+        letter-spacing: 3px;
+        word-spacing: 4px;
+        line-height: 42px;
+    }
+
+    .bold-grey-text {
+        color: var(--lightGrey);
+        font-weight: 600;
+    }
+
+    .bold-white-txt{
+        color:var(--font-primary);
+        font-weight:600;
+    }
+
+    .para-cont{
+        width:50%;
+        height:auto;
+    }
+
+     .stacked-list{
+        list-style: none;
+    display: flex;
+    margin: 0;
+    background-color: var(--secbg-color);
+    cursor: pointer;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: center;
+    gap: 7px;
+    letter-spacing: 1px;
+    }
+
+    .spaced-list{
+        list-style: none;
+        width: 640px;
+        padding: 10px;
+        background-color: var(--secbg-color);
+    }
+
+
+    .item-spaced-list{
+        display: inline-block;
+        margin: 25px;
+    }
+
+
+    /* navigation */
+
+    .navigation{
+        list-style: none;
+        width: 100%;
+        height: 80px;
+        background-color: var(--secbg-color);
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .navigation li{
+     display: inline-block;
+    }
+
+    .nav-center{
+        justify-content: center;
+    }
+
+    .nav-center li{
+        padding:10px;
+    }
+    .nav-center li:hover{
+        border-bottom:2px solid var(--font-primary);
+    }
+   .navigation li{
+       cursor: pointer;
+   }
+
+    .nav-spaced{
+    justify-content:space-evenly;
+    }
+
+    .nav-spaced li{
+        padding:10px;
+        transition:all 0.2s ease-in-out;
+    }
+
+    .nav-spaced li:hover{
+        border-top:2px solid var(--mainBrandColor);
+        color:var(--mainBrandColor);
+    }
+    
+
+    .nav-space-between{
+        justify-content: space-between;
+    }
+
+    .nav-space-between li{
+        margin:0px 20px;
+    }
+
+    .nav-space-between li:hover{
+        color:var(--mainBrandColor);
+    }
+
+
+
