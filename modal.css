@@ -14,7 +14,7 @@
     width:160px;
     height:50px;
     background: var(--secbg-color);
-    border: 1px solid var(--mainBrandColor);
+    border: 1px solid var(--primary-color);
     color:var(--font-primary);
     text-align: center;
     font-size: 22px;
@@ -25,7 +25,7 @@
 }
 
 .click-me:hover{
-   background:var(--mainBrandColor);
+   background:var(--primary-color);
 }
 
 .center .content{
@@ -36,7 +36,7 @@
     background: white;
     border-radius: 3px;
     transition: 0.3s;
-    box-shadow: 0 2px 20px 0px var(--mainBrandColor);
+    box-shadow: 0 2px 20px 0px var(--primary-color);
 }
 
 #click:checked ~ .content{
