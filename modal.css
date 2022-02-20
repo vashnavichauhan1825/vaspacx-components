@@ -13,9 +13,9 @@
     display: block;
     width:160px;
     height:50px;
-    background: var(--secbg-color);
+    background: var(--bg-secondary-color);
     border: 1px solid var(--primary-color);
-    color:var(--font-primary);
+    color:var(--font-color);
     text-align: center;
     font-size: 22px;
     line-height:50px;
@@ -46,13 +46,13 @@
 
 .center .header{
     height: 68px;
-    background: var(--secbg-color);
+    background: var(--bg-secondary-color);
     overflow: hidden;
     border-radius: 3px 3px 0 0;
 }
 
 .center .header h2{
-    color:var(--font-primary);
+    color:var(--font-color);
     padding-left:32px;
 }
 
@@ -107,7 +107,7 @@
 
 .close-btn:hover{
     background:darkred;
-    color:var(--font-primary);
+    color:var(--font-color);
     transition:0.5s;
 }
 
@@ -159,7 +159,7 @@
 .snackbars{
     width: 400px;
     height: 50px;
-    background-color:var(--secbg-color);
+    background-color:var(--bg-secondary-color);
     align-items: center;
     display: flex;
     padding: 0px 4px;
@@ -201,7 +201,7 @@
 }
 
 .item{
-    border: 1px solid var(--lightGrey);
+    border: 1px solid var(--grey-color);
     border-radius: 10px;
     display: flex;
     padding: 20px;
