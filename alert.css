@@ -1,0 +1,139 @@
+/* container for alert */
+.alert-container{
+    display:flex;
+    flex-direction:column;
+    height: 270px;
+    width:800px;
+    gap:40px;
+    padding:40px 40px;
+    flex-wrap:wrap;
+    width:800px;
+    background-color:black;
+  }
+  
+  /* alert-box container */
+  .alert-box{
+    display:flex;
+    width:400px;
+    height:70px;
+    background-color:rgb(255 244 244);
+    border-radius:5px;
+    justify-content: space-between;
+    justify-content:space-between;
+    padding-right:10px;
+    position: relative;
+  }
+  
+  .alert-box .al-heading{
+    display:inline-block;
+    margin:10px 0px 0px 20px;
+    position: absolute;
+    top:5px;
+    left: 50px;
+    color:#3a3a3b;
+  }
+   
+  .close-font{
+    font-size:13px;
+    color: #3a3a3b;
+  }
+  
+  .alert-box .icon{
+    margin: 16px 10px 0px 10px;
+    border-radius: 50%;
+    width: 30px;
+    box-sizing: border-box;
+    height: 30px;
+  }
+  
+  
+  .alert-box .small{
+    display:inline-block;
+    position: absolute;
+    color: #2c303a;
+    top: 40px;
+    left: 70px;
+  }
+  
+  /* colors for icon */
+  .green-icon{
+    border: 2px solid rgb(128 211 125);
+    color: rgb(128 211 125);
+    padding: 5px 5px;
+  }
+  .red-icon{
+    border: 2px solid rgb(255 77 77);
+    color: rgb(255 77 77);
+    padding: 5px 6px;
+  }
+  .yellow-icon{
+    border: 2px solid rgb(234 255 66);
+    color: rgb(240 244 1);
+    padding: 5px 6px;
+  }
+
+  .blue-icon{
+    color: #124490;
+    padding: 5px 6px;
+  }
+  
+  /* borders for alert */
+  .border-left-gr{
+    border-left: 8px solid rgb(84 236 78);
+    box-shadow: -11px 0px 10px 1px green;
+  }
+  .border-left-red{
+    border-left: 8px solid rgb(255 77 77);
+    box-shadow: -11px 0px 10px 1px #f90b0b;
+  }
+  .border-left-yw{
+    border-left: 8px solid rgb(234 255 66);
+    box-shadow: -11px 0px 10px 1px #bec111;
+  }
+
+  .border-left-blue{
+    border-left: 8px solid #5e8cd0;
+    box-shadow: -11px 0px 10px 1px #124490;
+   }
+
+   /* outline alert */
+   
+   .bg-color-grey{
+    background-color:black;
+   }
+   
+   .outl-gr{
+     border:3px solid green;
+     box-shadow:0px 0px 7px 0px green;
+   }
+   
+   .alert-box .gr-color{
+     color:green;
+   }
+
+   .outl-red{
+    border:3px solid red;
+    box-shadow:0px 0px 7px 0px red;
+   }
+
+   .alert-box .red-color{
+    color:red;
+  }
+
+  .outl-yw{
+    border:3px solid yellow;
+    box-shadow:0px 0px 7px 0px yellow;
+   }
+
+   .alert-box .yw-color{
+    color:yellow;
+  }
+
+  .outl-blue{
+    border:3px solid blue;
+    box-shadow:0px 0px 7px 0px blue;
+   }
+
+   .alert-box .blue-color{
+    color:blue;
+  }

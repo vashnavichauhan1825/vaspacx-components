@@ -1,0 +1,208 @@
+
+.round-image{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+.image-x{
+    width:200px;
+    height:200px;
+    margin:20px;
+}
+
+.br-10px{
+    border-radius:10px;
+}
+
+.br-5px{
+    border-radius:5px;
+}
+
+.br-15px{
+    border-radius:15px;
+}
+
+
+.resp-img{
+    width:100%;
+    height:auto;
+}
+
+.op-five{
+    opacity:0.5;
+}
+.op-two{
+    opacity: 0.2;
+}
+
+.op-eight{
+    opacity: 0.8;
+}
+
+.op-one{
+    opacity:1;
+}
+
+
+
+/* classes for all */
+.margin-btm{
+    display:inline-block;
+    margin-bottom:10px;
+}
+#padding-left-0{
+    padding-left:0px;
+}
+
+
+
+
+.txt-center{
+ text-align: center;
+}
+.label-txt{
+   font-weight:bold;
+    font-size:13px;
+    color:var(--primary-color);
+}
+input::placeholder{
+    color:var(--input-txt-color);
+    font-size:10px;
+    padding-left:6px;
+    font-weight: bold;
+}
+
+/* section for all divs */
+.section-container-col{
+    margin: auto;
+    width: 50vw;
+    height: 65vh;
+    border-bottom:3px dotted var(--primary-color);
+    background-color:white;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+/* div container 1 for input fields */
+.heading-text{
+   color:var(--heading-color);
+}
+.flex-cont{
+    width:300px;
+    height: 50px;
+    border-radius:2px;
+    margin:20px 10px;
+    padding:10px 15px;
+    background-color:transparent;
+}
+.input-box{
+    border-radius:4px;
+    border-style:none;
+    width:200px;
+    height:25px;
+    background-color:transparent;
+    border:2px solid var(--primary-color); 
+}
+/* input field 2=> username inside input */
+.input-cont-2{
+    border: 2px solid var(--red-color);
+    padding: 0px 10px 7px 10px;
+    border-radius: 4px;
+    background-color:transparent;
+    height: 49px;
+    width: 185px;
+}
+.input-box-2{
+     border-style:none;
+     margin-left:-2px;
+     background-color:transparent;
+     color: var(--bg-secondary-color)
+ }
+
+ .text-area{
+     width:200px;
+     height:100px;
+ }
+ .small-valid-txt{
+    font-size: 10px;
+    color: var(--green-color);
+}
+
+.invalid-txt{
+    color:var(--red-color);
+    font-size:10px;
+}
+
+ .input-box-2::placeholder{
+     padding-left:0px;
+     font-weight: bold;
+ }
+
+ /* input 3=>username and input side by side */
+.input-box-3{
+    border-radius:4px;
+    border-style:none;
+    width:150px;
+    height:25px;
+    background-color:transparent;
+    border:2px solid var(--primary-color); 
+}
+
+/* input with  icon */
+.input-cont-4{
+    border:2px solid var(--primary-color);
+    padding:0px 10px 7px 10px;
+    border-radius:4px;
+    background-color:white;
+    height:15px;
+    width:185px;
+}
+
+
+/* 5=>inpuld field one sided border  */
+.input-cont-5{
+    border-bottom: 3px solid var(--primary-color);
+    padding: 0px 1px 7px 1px;
+    background-color:transparent;
+    height: 50px;
+    width: 185px;
+}
+ .flex-cont-5{
+    width:300px;
+    height: 50px;
+    border-radius:2px;
+    margin:20px 10px;
+    padding:1px 10px 30px 10px;
+    background-color:white;
+ }
+
+ /* 6=> input field for sided border */
+ .input-cont-6{
+    border-bottom:3px solid  var(--primary-color) ;
+    padding:0px 1px 7px 1px;
+    background-color:#eef0fd;
+    height:40px;
+    width:185px;
+}
+/* flex container for row */
+ .section-container-row{
+    margin: auto;
+    width: 80vw;
+    height: 65vh;
+    padding:10px 50px;
+    border-bottom:3px dotted var(--primary-color);
+    background-color:#f9faff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content:center;
+ }
+
+.input-cont-box{
+    width: 220px;
+    height: 63px;
+    margin: 10px 10px;
+}
+
+
