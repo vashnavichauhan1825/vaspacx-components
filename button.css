@@ -105,7 +105,7 @@ font-weight:bold;
 
 /* button floating */
 
-.btn-container .float-btn{
+ .float-btn{
     width: 50px;
     height: 50px;
     border: 50%;
@@ -114,11 +114,11 @@ font-weight:bold;
     margin: 15px 10px;
 }
 
-.btn-container .float-btn i{
+ .float-btn i{
     font-size:20px;
 }
 
-.btn-container .add-float{
+ .add-float{
     background-color:var(--primary-color);
     color:var(--font-color);
 }
